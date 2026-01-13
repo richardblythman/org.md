@@ -1,8 +1,8 @@
-# Init Product Ops
+# Init Org OS
 
 ## Overview
 
-Guide end-users through setting up a Product Ops Agent (Company OS) that helps operationalize product frameworks. This command captures the operator profile, discovers which frameworks the user works with (Lean, OKRs, JTBD, EOS, or combinations), understands their customizations, defines their memory structure, configures state persistence, captures templates, and produces a complete CLAUDE.md with initial directory structure.
+Guide end-users through setting up an Org Organisation OS that helps operationalize product frameworks. This command captures the operator profile, discovers which frameworks the user works with (Lean, OKRs, JTBD, EOS, or combinations), understands their customizations, defines their memory structure, configures state persistence, captures templates, and produces a complete CLAUDE.md with initial directory structure.
 
 ## Purpose & Value
 
