@@ -1534,7 +1534,7 @@ Your Org Organisation OS is ready to help operationalize your product workflow.
 ### Related Commands
 
 - `/init_agent`: Use first if the agent repository doesn't exist yet
-- `/create_agent_command`: Add custom commands to the Product Ops Agent after setup
+- `/create_agent_command`: Add custom commands to the Org Organisation OS after setup
 - `/create_agent_feature`: Add additional capabilities to the agent
 
 ### Prerequisites
