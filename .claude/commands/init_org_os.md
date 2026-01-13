@@ -37,7 +37,7 @@ This is a complex discovery process that varies significantly based on the user'
 
 ### Command Name
 ```
-/init_product_ops
+/init_org_os
 ```
 
 ### Parameters
