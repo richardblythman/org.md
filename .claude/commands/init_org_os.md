@@ -1453,7 +1453,7 @@ Framework(s): [Lean, OKRs, etc.]
 Memory structure: memory/[top-level-dir]/...
 Templates: templates/[list]
 
-Your agent is ready to help operationalize your product workflow.
+Your Org Organisation OS is ready to help operationalize your product workflow.
 ```
 
 ## File Structure & Paths
