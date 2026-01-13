@@ -841,7 +841,7 @@ After we finish setting up your agent, you can create these commands using `/cre
 
 #### Step 6: Generate CLAUDE.md
 
-**Purpose**: Create the CLAUDE.md file that defines the Product Ops Agent.
+**Purpose**: Create the CLAUDE.md file that defines the Org Organisation OS.
 
 **Framework-Specific Titles**:
 
