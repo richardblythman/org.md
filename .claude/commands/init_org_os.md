@@ -8,7 +8,7 @@ Guide end-users through setting up an Org Organisation OS that helps operational
 
 ### Workflow Being Automated
 
-Setting up a Product Ops Agent (Company OS) requires understanding:
+Setting up an Org Organisation OS requires understanding:
 - Who the operator is (name, role, productivity peaks, work style)
 - Which product frameworks the user employs
 - How they've customized or combined these frameworks
