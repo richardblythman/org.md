@@ -48,7 +48,7 @@ None required. This is a conversational discovery command.
 
 ```bash
 # Start the discovery process
-/init_product_ops
+/init_org_os
 ```
 
 ## Procedural Requirements
