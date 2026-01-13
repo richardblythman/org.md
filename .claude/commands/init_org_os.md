@@ -1529,14 +1529,3 @@ Your Org Organisation OS is ready to help operationalize your product workflow.
 - Show actual directory structures, not abstract descriptions
 - Create real template content, not placeholders
 
-## Integration Notes
-
-### Related Commands
-
-- `/init_agent`: Use first if the agent repository doesn't exist yet
-- `/create_agent_command`: Add custom commands to the Org Organisation OS after setup
-- `/create_agent_feature`: Add additional capabilities to the agent
-
-### Prerequisites
-
-This command assumes a repository already exists. If not, guide user to run `/init_agent` first.
