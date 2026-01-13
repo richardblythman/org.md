@@ -29,7 +29,7 @@ This is a complex discovery process that varies significantly based on the user'
 
 ### Target Users
 
-- End-users setting up their own Product Ops Agent
+- End-users setting up their own Org Organisation OS
 - Product managers, founders, or ops leads who want to operationalize their frameworks
 - Teams combining multiple frameworks (e.g., OKRs for direction + Lean for execution)
 
