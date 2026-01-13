@@ -31,8 +31,12 @@ ORG.md
 ## Quick Start
 
 1. Read the [full specification](SPEC.md)
-2. See a [complete example](examples/product-org.md)
-3. Create your own `ORG.md` at your workspace root
+2. See a [complete example](examples/eos-product.md)
+3. Create your own `ORG.md` at your workspace root, or run:
+
+```
+/init_org_os
+```
 
 ## Why This Matters
 
