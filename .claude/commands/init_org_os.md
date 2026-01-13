@@ -1086,7 +1086,7 @@ Files created:
 - templates/[name].md - Template for [artifact type]
 - [etc.]
 
-Your Product Ops Agent is ready to use!
+Your Org Organisation OS is ready to use!
 ```
 
 **Validation**:
