@@ -74,7 +74,7 @@ None required. This is a conversational discovery command.
 1. Welcome the user and explain the process (assume the repository already exists):
 
 ```
-I'll help you set up a Product Ops Agent tailored to your frameworks and workflows in your existing agent repository. We'll go through a few steps:
+I'll help you set up an Org Organisation OS tailored to your frameworks and workflows in your existing agent repository. We'll go through a few steps:
 
 1. Get to know you (operator profile)
 2. Discover which frameworks you use (Lean, OKRs, JTBD, EOS, or others)
