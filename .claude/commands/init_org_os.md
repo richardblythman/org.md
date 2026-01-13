@@ -1447,7 +1447,7 @@ Would you like help with any of these next steps?
 
 **Output Format**:
 ```
-Product Ops Agent initialized successfully!
+Org Organisation OS initialized successfully!
 
 Framework(s): [Lean, OKRs, etc.]
 Memory structure: memory/[top-level-dir]/...
