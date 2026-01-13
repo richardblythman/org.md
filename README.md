@@ -35,7 +35,7 @@ ORG.md
 3. Create your own `ORG.md` at your workspace root, or run:
 
 ```
-init orgOS
+/init_org_os
 ```
 
 ## Why This Matters
