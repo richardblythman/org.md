@@ -22,7 +22,7 @@ This is a complex discovery process that varies significantly based on the user'
 
 ### Time/Effort Savings
 
-- Eliminates guesswork in structuring a product ops agent
+- Eliminates guesswork in structuring an Org Organisation OS
 - Ensures the memory structure matches the user's mental model
 - Creates templates that enforce consistency across artifacts
 - Produces a CLAUDE.md that accurately reflects the user's framework
