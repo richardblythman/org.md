@@ -30,13 +30,30 @@ ORG.md
 
 ## Quick Start
 
-1. Read the [full specification](SPEC.md)
-2. See a [complete example](examples/eos-product.md)
-3. Create your own `ORG.md` at your workspace root, or run:
+### Getting Started
 
-```
-/init_org_os
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/richardblythman/org.md.git
+   cd org.md
+   ```
+
+2. Run Claude Code in the directory:
+   ```bash
+   claude
+   ```
+
+3. Initialize your organizational OS:
+   ```
+   /init_org_os
+   ```
+
+This will create an `ORG.md` file at your workspace root configured for your organization.
+
+### Learn More
+
+- Read the [full specification](SPEC.md)
+- See a [complete example](examples/eos-product.md)
 
 ## Why This Matters
 
