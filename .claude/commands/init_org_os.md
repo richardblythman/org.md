@@ -2,7 +2,7 @@
 
 ## Overview
 
-Guide end-users through setting up an Org Organisation OS that helps operationalize product frameworks. This command captures the operator profile, discovers which frameworks the user works with (Lean, OKRs, JTBD, EOS, or combinations), understands their customizations, defines their memory structure, configures state persistence, captures templates, and produces a complete CLAUDE.md with initial directory structure.
+Guide end-users through setting up an Org Organisation OS that helps operationalize organizational frameworks. This command captures the operator profile, discovers which frameworks the user works with (Lean, OKRs, JTBD, EOS, or combinations), understands their customizations, defines their memory structure, configures state persistence, captures templates, and produces a complete CLAUDE.md with initial directory structure.
 
 ## Purpose & Value
 
@@ -22,7 +22,7 @@ This is a complex discovery process that varies significantly based on the user'
 
 ### Time/Effort Savings
 
-- Eliminates guesswork in structuring an Org Organisation OS
+- Eliminates guesswork in structuring a product ops agent
 - Ensures the memory structure matches the user's mental model
 - Creates templates that enforce consistency across artifacts
 - Produces a CLAUDE.md that accurately reflects the user's framework
@@ -119,160 +119,187 @@ This helps the agent understand how to work *with* you, not just *for* you.
 
 ---
 
-#### Step 1b: Framework Discovery
+#### Step 1b: Workflow Discovery & Framework Design
 
-**Purpose**: Understand which frameworks the user works with.
+**Purpose**: Understand the user's actual workflow, identify pain points, and design a framework that fits how they work.
 
 **Actions**:
 
+**Part 1: Current Process Discovery**
+
+1. Ask about their current process through a concrete example:
+
 ```
-Now let's talk about frameworks.
+Now let's understand how you currently work.
 
-**Which product frameworks do you use?** (Select all that apply, or describe your own)
+**Walk me through a recent project or initiative:**
 
-Common frameworks:
-- **Lean** - Strategies, experiments, hypotheses, validated learning
-- **OKRs** - Objectives and Key Results (directional goal-setting)
-- **JTBD** (Jobs-to-be-Done) - Jobs, outcomes, solutions
-- **EOS** - Rocks, milestones, to-dos (Entrepreneurial Operating System)
-- **Other** - Tell me about your framework
+1. **What kicked it off?**
+   - A goal you wanted to hit? A problem to solve? A hypothesis to test? A customer request? Something else?
 
-You can also use combinations (e.g., "OKRs for direction + Lean for execution").
+2. **What did you do to make progress?**
+   - Did you break it into pieces? Run experiments? Set milestones? Just start building?
+
+3. **What artifacts did you create along the way?**
+   - Documents? Spreadsheets? Notes? Recordings? Nothing formal?
+
+4. **How did you know when it was "done" or successful?**
+   - Hit a metric? Felt complete? Got customer feedback? Shipped something?
+
+Don't worry about using the "right" terminology - just describe what actually happened.
 ```
 
-2. Wait for user response and acknowledge their selection.
+2. Wait for user response. Listen for:
+   - **Hierarchy signals**: What contains what? (e.g., "We had a goal, broke it into experiments...")
+   - **Artifact signals**: What do they create? (e.g., "I wrote up a hypothesis doc...")
+   - **Stage signals**: How does work flow? (e.g., "First we tested, then we measured...")
+   - **Framework signals**:
+     - Lean: hypotheses, experiments, validated learning, pivots, customer interviews
+     - OKRs: objectives, key results, quarterly goals, measurable outcomes
+     - EOS: rocks, 90-day priorities, milestones, weekly check-ins
+     - JTBD: customer jobs, outcomes, hiring/firing products
+
+**Part 2: Pain Points**
+
+3. Ask about improvements:
+
+```
+Thanks for walking me through that.
+
+**What would you improve about this process?**
+
+- What gets lost or forgotten?
+- Where do you waste time?
+- What decisions feel harder than they should be?
+- What would make this work better for you?
+```
+
+4. Wait for user response and capture their pain points.
+
+**Part 3: Synthesis & Framework Design**
+
+5. Synthesize what you've learned and propose a framework:
+
+```
+Based on what you've described, here's what I'm hearing:
+
+**Your current process:**
+- [How work gets kicked off]
+- [How work progresses - stages/phases]
+- [What artifacts you create]
+- [How you know when it's done]
+
+**What you'd improve:**
+- [Pain point 1]
+- [Pain point 2]
+
+**Suggested framework:**
+
+This sounds like a [Framework Name] approach. [1-2 sentences on why it fits and how it addresses their pain points.]
+
+Here's how I'd structure it for you:
+
+**Hierarchy:**
+[Top-level concept] → [Mid-level concept] → [Artifact level]
+Example: Strategies → Experiments → Learnings
+
+**Stages:**
+[Stage 1] → [Stage 2] → [Stage 3]
+Example: Build → Measure → Learn
+
+**Key artifacts you'd track:**
+- [Artifact 1]: [What fields matter based on their description]
+- [Artifact 2]: [What fields matter based on their description]
+
+Does this match how you think about your work? What would you adjust?
+```
+
+6. Refine based on user feedback. Ask targeted follow-up questions only for gaps:
+
+**If hierarchy is unclear:**
+```
+I want to make sure I understand the hierarchy.
+
+When you [do X], does that sit inside a larger [Y]? Or is [X] the top level?
+
+For example: Are experiments part of a strategy? Or do you just run experiments independently?
+```
+
+**If stages are unclear:**
+```
+What stages does work move through for you?
+
+For example, some people think in terms of:
+- Build → Measure → Learn (testing ideas)
+- Plan → Execute → Review (hitting goals)
+- Discover → Define → Deliver (solving problems)
+
+Or you might have your own stages. What feels right?
+```
+
+**If artifacts are unclear:**
+```
+What would you actually want to track in this system?
+
+When you create a new [experiment/rock/initiative], what information matters?
+- Name and description?
+- Owner?
+- Due date or timeframe?
+- Success criteria?
+- Status?
+- Something else?
+```
+
+**If success criteria are unclear:**
+```
+How do you know when a [experiment/rock/initiative] is successful?
+
+- Hit a specific metric?
+- Completed all milestones?
+- Learned what you needed to learn?
+- Shipped something?
+```
+
+7. Confirm the framework design before proceeding:
+
+```
+Great, here's the framework we've designed:
+
+**Framework type:** [Lean / OKRs / EOS / JTBD / Hybrid / Custom]
+
+**Hierarchy:**
+- [Top level]: [Description]
+  - [Mid level]: [Description]
+    - [Artifact level]: [Description]
+
+**Stages:** [Stage 1] → [Stage 2] → [Stage 3]
+
+**Key artifacts:**
+| Artifact | Key Fields |
+|----------|------------|
+| [Type 1] | [field1, field2, field3] |
+| [Type 2] | [field1, field2, field3] |
+
+**Pain points this addresses:**
+- [Pain point] → [How the framework helps]
+
+Does this capture how you want to work? Once you confirm, we'll move on to designing your memory structure and templates.
+```
 
 **Validation**:
-- User has identified at least one framework or described their approach
-- If unclear, ask clarifying questions
+- User has described their actual workflow
+- Pain points captured
+- Framework type identified (standard or custom)
+- Hierarchy confirmed (what contains what)
+- Stages confirmed (how work flows)
+- Key artifacts and their fields identified
+- User has confirmed the framework design
 
 **Error Handling**:
-- If user is unsure, help them identify their framework by asking:
-  - "How do you currently track strategic initiatives?"
-  - "What artifacts do you create when planning or executing work?"
-  - "Do you run experiments? Track goals? Define milestones?"
-
----
-
-#### Step 2: Framework Deep-Dive
-
-**Purpose**: Understand how the user interprets and customizes each framework they selected.
-
-**Actions**:
-
-For EACH framework the user selected, ask targeted questions:
-
-**If Lean**:
-```
-Let's talk about how you use Lean.
-
-1. **Hierarchy**: How do you organize work? For example:
-   - Strategies → Experiments → Hypotheses?
-   - Themes → Experiments → Learnings?
-   - Something else?
-
-2. **Experiments**: What defines an experiment for you?
-   - What fields matter? (hypothesis, success criteria, results, learnings?)
-   - How long do experiments typically run?
-
-3. **Strategies**: How do you define a strategy?
-   - Is it tied to a time period? A customer segment? A problem space?
-
-4. **Stages**: What stages does work move through?
-   - Build → Measure → Learn? (classic Lean)
-   - Something different?
-
-5. **Activities per stage**: What happens within each stage?
-
-   Build stage activities:
-   - [ ] Problem definition?
-   - [ ] Solution sketching?
-   - [ ] MVP scoping?
-   - [ ] Plan experiment?
-   - [ ] Development?
-   - [ ] Other: ___
-
-   Measure stage activities:
-   - [ ] User interviews?
-   - [ ] Transcript analysis?
-   - [ ] A/B testing?
-   - [ ] Analytics review?
-   - [ ] Other: ___
-
-   Learn stage activities:
-   - [ ] Synthesis?
-   - [ ] Insight documentation?
-   - [ ] Pivot/persevere decision?
-   - [ ] Other: ___
-
-6. **Triggers**: When do activities start?
-   - "After how many interviews do you synthesize?"
-   - "What triggers a pivot/persevere decision?"
-```
-
-**If OKRs**:
-```
-Let's talk about how you use OKRs.
-
-1. **Cadence**: What's your OKR cycle? (quarterly, annual, other?)
-
-2. **Structure**: How do you organize objectives?
-   - Company → Team → Individual?
-   - By product area? By theme?
-
-3. **Connection to execution**: Since OKRs are directional, how do you connect them to operational work?
-   - Do Key Results map to specific initiatives or experiments?
-   - Do you use another framework (Lean, EOS) for the "how"?
-```
-
-**If JTBD**:
-```
-Let's talk about how you use Jobs-to-be-Done.
-
-1. **Job definition**: How do you document a job?
-   - Do you use the "When... I want to... So I can..." format?
-   - What fields matter? (functional job, emotional job, social job?)
-
-2. **Outcomes**: How do you track desired outcomes for each job?
-
-3. **Solutions**: How do you map solutions to jobs?
-   - Features? Experiments? Products?
-```
-
-**If EOS**:
-```
-Let's talk about how you use EOS.
-
-1. **Rocks**: How do you define rocks?
-   - What's the typical timeframe? (90 days?)
-   - What fields matter? (owner, due date, status?)
-
-2. **Hierarchy**: What sits under rocks?
-   - Milestones → To-dos?
-   - Something else?
-
-3. **Tracking**: How do you track rock progress?
-   - Percentage complete? Milestone-based? Weekly check-ins?
-```
-
-**If Other/Custom**:
-```
-Tell me more about your framework.
-
-1. **Core concepts**: What are the main artifacts you work with?
-   - (e.g., initiatives, bets, projects, themes, etc.)
-
-2. **Hierarchy**: How do these relate to each other?
-   - What contains what? What leads to what?
-
-3. **Lifecycle**: How do these artifacts move through stages?
-   - (e.g., draft → active → completed → archived)
-```
-
-**Validation**:
-- User has explained their interpretation of each framework
-- You understand the hierarchy of artifacts
-- You understand what fields/attributes matter for each artifact type
+- If user gives very brief answers, probe deeper: "Can you give me a specific example? What was the last thing you worked on?"
+- If user's process doesn't map to a known framework, design a custom one based on their concepts
+- If user insists on a specific framework despite description suggesting otherwise, respect their choice but note any tensions
+- If user isn't sure about stages, suggest they start simple (3 stages) and refine later
 
 ---
 
@@ -1216,7 +1243,7 @@ memory/
 
 ---
 
-_Dashboard generated by Org Organisation OS • {Framework name}_
+_Dashboard generated by Product Ops Agent • {Framework name}_
 ```
 
 2. **Customize the dashboard based on framework**:
@@ -1425,7 +1452,7 @@ Your Org Organisation OS is set up and ready!
 
 **What was created:**
 - README.md dashboard for tracking progress on your [framework]
-- CLAUDE.md defining your agent's framework and capabilities
+- CLAUDE.md defining your Org OS framework and capabilities
 - Memory structure at `memory/` matching your [framework] approach
 - Templates at `templates/` for creating consistent artifacts
 
@@ -1453,7 +1480,7 @@ Framework(s): [Lean, OKRs, etc.]
 Memory structure: memory/[top-level-dir]/...
 Templates: templates/[list]
 
-Your Org Organisation OS is ready to help operationalize your product workflow.
+Your Org OS is ready to help operationalize your organizational workflow.
 ```
 
 ## File Structure & Paths
@@ -1529,3 +1556,14 @@ Your Org Organisation OS is ready to help operationalize your product workflow.
 - Show actual directory structures, not abstract descriptions
 - Create real template content, not placeholders
 
+## Integration Notes
+
+### Related Commands
+
+- `/init_agent`: Use first if the agent repository doesn't exist yet
+- `/create_agent_command`: Add custom commands to the Product Ops Agent after setup
+- `/create_agent_feature`: Add additional capabilities to the agent
+
+### Prerequisites
+
+This command assumes a repository already exists. If not, guide user to run `/init_agent` first.
